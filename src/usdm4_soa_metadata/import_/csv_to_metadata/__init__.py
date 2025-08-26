@@ -7,13 +7,13 @@ class CsvToMetadata:
     MODULE = "usdm4_soa_metadata.import_.csv_to_json.__init__.CsvToMetadata"
     FILE_KEYS: list = [
         "activity_rows",
-        "annotations",
-        "grid_columns",
-        "grid_metadata",
-        "schedule_columns_data",
-        "schedule_property_metadata",
-        "scheduled_activities",
-        "table",
+        # "annotations",
+        # "grid_columns",
+        # "grid_metadata",
+        # "schedule_columns_data",
+        # "schedule_property_metadata",
+        # "scheduled_activities",
+        "tables",
     ]
 
     def __init__(self, errors: Errors) -> None:
@@ -23,12 +23,12 @@ class CsvToMetadata:
         print(f"FILES: {file_paths}")
         if self._check_all_paths_present(file_paths):
             result = {}
-            self._tables(file_paths["table"], result)
+            self._tables(file_paths["tables"], result)
             self._activities(file_paths["activity_rows"], result)
             return result
         else:
             self._errors.error(
-                f"Missing files for file set for CSV to JSON conversion, missing {self._missing_paths(file_paths)}",
+                f"Missing files for file set for CSV to JSON conversion, missing '{self._missing_paths(file_paths)}'",
                 location=KlassMethodLocation(self.MODULE, "_process"),
             )
             return None
@@ -56,14 +56,14 @@ class CsvToMetadata:
             )
 
     def _check_all_paths_present(self, file_paths: dict[Path]) -> bool:
-        return True if all(k in file_paths for k in self.FILE_KEYS) else False
+        return all(k in file_paths for k in self.FILE_KEYS)
 
     def _missing_paths(self, file_paths: dict[Path]) -> list[Path]:
-        present: list = [x for x in self.FILE_KEYS if x not in file_paths]
-        #present = all(k in self.FILE_KEYS for k in file_paths)
+        present: list = [x for x in self.FILE_KEYS if x in file_paths]
+        print(f"PRESENT: {present}")
         return list(set(self.FILE_KEYS) - set(present))
 
-    def _read_csv(self, file_path, Path) -> dict:
+    def _read_csv(self, file_path: Path) -> dict:
         try:
             with open(file_path, "r") as f:
                 dict_reader = DictReader(f)

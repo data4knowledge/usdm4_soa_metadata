@@ -1,1 +1,208 @@
-null
+{
+  "table-001": {
+    "table_id": "table-001",
+    "table_title": "Schedule of Events for Protocol H2Q-MC-LZZT(c)",
+    "page_start": "2",
+    "page_end": "3",
+    "table_type": "main",
+    "visit_range": "V1-V13 plus ET/RT",
+    "activities": {
+      "ar-001": {
+        "table_id": "table-001",
+        "activity_id": "ar-001",
+        "activity_name": "Informed consent",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-002": {
+        "table_id": "table-001",
+        "activity_id": "ar-002",
+        "activity_name": "Patient number assigned",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-003": {
+        "table_id": "table-001",
+        "activity_id": "ar-003",
+        "activity_name": "Hachinski \u22644",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-004": {
+        "table_id": "table-001",
+        "activity_id": "ar-004",
+        "activity_name": "MMSE 10-23",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-005": {
+        "table_id": "table-001",
+        "activity_id": "ar-005",
+        "activity_name": "Physical examination",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-006": {
+        "table_id": "table-001",
+        "activity_id": "ar-006",
+        "activity_name": "Medical History",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-007": {
+        "table_id": "table-001",
+        "activity_id": "ar-007",
+        "activity_name": "Habits",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-008": {
+        "table_id": "table-001",
+        "activity_id": "ar-008",
+        "activity_name": "Chest x-ray",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-009": {
+        "table_id": "table-001",
+        "activity_id": "ar-009",
+        "activity_name": "Apo E genotyping",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-010": {
+        "table_id": "table-001",
+        "activity_id": "ar-010",
+        "activity_name": "Patient randomized",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-011": {
+        "table_id": "table-001",
+        "activity_id": "ar-011",
+        "activity_name": "Vital signs/Temperature",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-012": {
+        "table_id": "table-001",
+        "activity_id": "ar-012",
+        "activity_name": "Ambulatory ECG placed",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-013": {
+        "table_id": "table-001",
+        "activity_id": "ar-013",
+        "activity_name": "Ambulatory ECG removed",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-014": {
+        "table_id": "table-001",
+        "activity_id": "ar-014",
+        "activity_name": "ECG",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-015": {
+        "table_id": "table-001",
+        "activity_id": "ar-015",
+        "activity_name": "Placebo TTS test",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-016": {
+        "table_id": "table-001",
+        "activity_id": "ar-016",
+        "activity_name": "CT Scan (if not within last year and patient passes all other screens)",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-017": {
+        "table_id": "table-001",
+        "activity_id": "ar-017",
+        "activity_name": "Concomitant Medications",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-018": {
+        "table_id": "table-001",
+        "activity_id": "ar-018",
+        "activity_name": "Laboratory (Chem/Hemat):",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-019": {
+        "table_id": "table-001",
+        "activity_id": "ar-019",
+        "activity_name": "Laboratory (Urinalysis)",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-020": {
+        "table_id": "table-001",
+        "activity_id": "ar-020",
+        "activity_name": "Plasma Specimen (Xanomeline)",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-021": {
+        "table_id": "table-001",
+        "activity_id": "ar-021",
+        "activity_name": "Hemoglobin A1C",
+        "parent_flag": "No",
+        "annotation_markers": "a"
+      },
+      "ar-022": {
+        "table_id": "table-001",
+        "activity_id": "ar-022",
+        "activity_name": "Study drug record Medications dispensed Medications returned",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-023": {
+        "table_id": "table-001",
+        "activity_id": "ar-023",
+        "activity_name": "TTS Acceptability Survey",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-024": {
+        "table_id": "table-001",
+        "activity_id": "ar-024",
+        "activity_name": "ADAS-Cog",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-025": {
+        "table_id": "table-001",
+        "activity_id": "ar-025",
+        "activity_name": "CIBIC+",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-026": {
+        "table_id": "table-001",
+        "activity_id": "ar-026",
+        "activity_name": "DAD",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      },
+      "ar-027": {
+        "table_id": "table-001",
+        "activity_id": "ar-027",
+        "activity_name": "NPI-X",
+        "parent_flag": "No",
+        "annotation_markers": "b"
+      },
+      "ar-028": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "activity_name": "Adverse events",
+        "parent_flag": "No",
+        "annotation_markers": ""
+      }
+    }
+  }
+}

@@ -14,9 +14,9 @@ def _file_list(directory: Path) -> list[Path]:
     for file in os.listdir(directory):
         print(f"FILE: {file}")
         if file.endswith("activity_rows.csv"):
-            result["activities"] = Path(file)
+            result["activity_rows"] = Path(os.path.join(directory, file))
         elif file.endswith("tables.csv"):
-            result["tables"] = Path(file)
+            result["tables"] = Path(os.path.join(directory, file))
         else:
             pass
     return result
