@@ -17,6 +17,18 @@ def _file_list(directory: Path) -> list[Path]:
             result["activity_rows"] = Path(os.path.join(directory, file))
         elif file.endswith("tables.csv"):
             result["tables"] = Path(os.path.join(directory, file))
+        elif file.endswith("annotations.csv"):
+            result["annotations"] = Path(os.path.join(directory, file))
+        elif file.endswith("grid_columns.csv"):
+            result["grid_columns"] = Path(os.path.join(directory, file))
+        # elif file.endswith("grid_metadata"):
+        #     result[""] = Path(os.path.join(directory, file))
+        elif file.endswith("schedule_columns_data.csv"):
+            result["schedule_columns_data"] = Path(os.path.join(directory, file))
+        # elif file.endswith("schedule_property_metadata"):
+        #     result["schedule_property_metadata"] = Path(os.path.join(directory, file))
+        elif file.endswith("scheduled_activities.csv"):
+            result["scheduled_activities"] = Path(os.path.join(directory, file))
         else:
             pass
     return result

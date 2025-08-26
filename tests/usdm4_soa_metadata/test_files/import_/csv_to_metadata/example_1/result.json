@@ -6,7 +6,7 @@
     "page_end": "3",
     "table_type": "main",
     "visit_range": "V1-V13 plus ET/RT",
-    "activities": {
+    "activity_rows": {
       "ar-001": {
         "table_id": "table-001",
         "activity_id": "ar-001",
@@ -201,6 +201,392 @@
         "activity_id": "ar-028",
         "activity_name": "Adverse events",
         "parent_flag": "No",
+        "annotation_markers": ""
+      }
+    },
+    "annotations": {
+      "ann-001": {
+        "table_id": "table-001",
+        "annotation_id": "ann-001",
+        "annotation_type": "legend",
+        "annotation_marker": "X",
+        "annotation_text": "Performed at this visit",
+        "applies_to": "general"
+      },
+      "ann-002": {
+        "table_id": "table-001",
+        "annotation_id": "ann-002",
+        "annotation_type": "footnote",
+        "annotation_marker": "a",
+        "annotation_text": "Performed at this visit if patient is an insulin-dependent diabetic",
+        "applies_to": "marker"
+      },
+      "ann-003": {
+        "table_id": "table-001",
+        "annotation_id": "ann-003",
+        "annotation_type": "footnote",
+        "annotation_marker": "b",
+        "annotation_text": "Performed at this visit and via telephone interview 2 weeks following this visit",
+        "applies_to": "marker"
+      },
+      "ann-004": {
+        "table_id": "table-001",
+        "annotation_id": "ann-004",
+        "annotation_type": "legend",
+        "annotation_marker": "P",
+        "annotation_text": "Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected",
+        "applies_to": "general"
+      },
+      "ann-005": {
+        "table_id": "table-001",
+        "annotation_id": "ann-005",
+        "annotation_type": "abbreviation",
+        "annotation_marker": "CT",
+        "annotation_text": "computed tomography",
+        "applies_to": "general"
+      },
+      "ann-006": {
+        "table_id": "table-001",
+        "annotation_id": "ann-006",
+        "annotation_type": "abbreviation",
+        "annotation_marker": "ECG",
+        "annotation_text": "electrocardiogram",
+        "applies_to": "general"
+      },
+      "ann-007": {
+        "table_id": "table-001",
+        "annotation_id": "ann-007",
+        "annotation_type": "abbreviation",
+        "annotation_marker": "ET",
+        "annotation_text": "Early Termination",
+        "applies_to": "general"
+      },
+      "ann-008": {
+        "table_id": "table-001",
+        "annotation_id": "ann-008",
+        "annotation_type": "abbreviation",
+        "annotation_marker": "RT",
+        "annotation_text": "Retrieval",
+        "applies_to": "general"
+      }
+    },
+    "grid_columns": {
+      "sc-001": {
+        "table_id": "table-001",
+        "col_id": "sc-001",
+        "position": "1",
+        "header_text": "1"
+      },
+      "sc-002": {
+        "table_id": "table-001",
+        "col_id": "sc-002",
+        "position": "2",
+        "header_text": "2"
+      },
+      "sc-003": {
+        "table_id": "table-001",
+        "col_id": "sc-003",
+        "position": "3",
+        "header_text": "3"
+      },
+      "sc-004": {
+        "table_id": "table-001",
+        "col_id": "sc-004",
+        "position": "4",
+        "header_text": "4"
+      },
+      "sc-005": {
+        "table_id": "table-001",
+        "col_id": "sc-005",
+        "position": "5",
+        "header_text": "5"
+      },
+      "sc-006": {
+        "table_id": "table-001",
+        "col_id": "sc-006",
+        "position": "6",
+        "header_text": "7"
+      },
+      "sc-007": {
+        "table_id": "table-001",
+        "col_id": "sc-007",
+        "position": "7",
+        "header_text": "8"
+      },
+      "sc-008": {
+        "table_id": "table-001",
+        "col_id": "sc-008",
+        "position": "8",
+        "header_text": "9"
+      },
+      "sc-009": {
+        "table_id": "table-001",
+        "col_id": "sc-009",
+        "position": "9",
+        "header_text": "10"
+      },
+      "sc-010": {
+        "table_id": "table-001",
+        "col_id": "sc-010",
+        "position": "10",
+        "header_text": "11"
+      },
+      "sc-011": {
+        "table_id": "table-001",
+        "col_id": "sc-011",
+        "position": "11",
+        "header_text": "12"
+      },
+      "sc-012": {
+        "table_id": "table-001",
+        "col_id": "sc-012",
+        "position": "12",
+        "header_text": "13"
+      },
+      "sc-013": {
+        "table_id": "table-001",
+        "col_id": "sc-013",
+        "position": "13",
+        "header_text": "ET"
+      },
+      "sc-014": {
+        "table_id": "table-001",
+        "col_id": "sc-014",
+        "position": "14",
+        "header_text": "RT"
+      }
+    },
+    "schedule_columns_data": {
+      "sc-001": {
+        "table_id": "table-001",
+        "col_id": "sc-001",
+        "timepoint_reference": "1",
+        "period": "",
+        "temporal_value": "WEEK -2",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-002": {
+        "table_id": "table-001",
+        "col_id": "sc-002",
+        "timepoint_reference": "2",
+        "period": "",
+        "temporal_value": "WEEK -.3",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-003": {
+        "table_id": "table-001",
+        "col_id": "sc-003",
+        "timepoint_reference": "3",
+        "period": "",
+        "temporal_value": "WEEK 0",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-004": {
+        "table_id": "table-001",
+        "col_id": "sc-004",
+        "timepoint_reference": "4",
+        "period": "",
+        "temporal_value": "WEEK 2",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-005": {
+        "table_id": "table-001",
+        "col_id": "sc-005",
+        "timepoint_reference": "5",
+        "period": "",
+        "temporal_value": "WEEK 4",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-006": {
+        "table_id": "table-001",
+        "col_id": "sc-006",
+        "timepoint_reference": "7",
+        "period": "",
+        "temporal_value": "WEEK 6",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-007": {
+        "table_id": "table-001",
+        "col_id": "sc-007",
+        "timepoint_reference": "8",
+        "period": "",
+        "temporal_value": "WEEK 8",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-008": {
+        "table_id": "table-001",
+        "col_id": "sc-008",
+        "timepoint_reference": "9",
+        "period": "",
+        "temporal_value": "WEEK 12",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-009": {
+        "table_id": "table-001",
+        "col_id": "sc-009",
+        "timepoint_reference": "10",
+        "period": "",
+        "temporal_value": "WEEK 16",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-010": {
+        "table_id": "table-001",
+        "col_id": "sc-010",
+        "timepoint_reference": "11",
+        "period": "",
+        "temporal_value": "WEEK 20",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-011": {
+        "table_id": "table-001",
+        "col_id": "sc-011",
+        "timepoint_reference": "12",
+        "period": "",
+        "temporal_value": "WEEK 24",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-012": {
+        "table_id": "table-001",
+        "col_id": "sc-012",
+        "timepoint_reference": "13",
+        "period": "",
+        "temporal_value": "WEEK 26",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-013": {
+        "table_id": "table-001",
+        "col_id": "sc-013",
+        "timepoint_reference": "ET",
+        "period": "",
+        "temporal_value": "",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      },
+      "sc-014": {
+        "table_id": "table-001",
+        "col_id": "sc-014",
+        "timepoint_reference": "RT",
+        "period": "",
+        "temporal_value": "",
+        "tolerance_window": "",
+        "annotation_markers": ""
+      }
+    },
+    "scheduled_activities": {
+      "sc-001": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-009": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-009",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-013": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-005": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-005",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-003": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-003",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-002": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-002",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-004": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-004",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-007": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-007",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-008": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-008",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-010": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-010",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-011": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-011",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-012": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-012",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "sc-014": {
+        "table_id": "table-001",
+        "activity_id": "ar-028",
+        "col_id": "sc-014",
+        "marker": "X",
+        "activity_comment": "",
         "annotation_markers": ""
       }
     }

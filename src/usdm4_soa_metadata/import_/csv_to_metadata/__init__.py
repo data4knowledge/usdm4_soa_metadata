@@ -7,12 +7,12 @@ class CsvToMetadata:
     MODULE = "usdm4_soa_metadata.import_.csv_to_json.__init__.CsvToMetadata"
     FILE_KEYS: list = [
         "activity_rows",
-        # "annotations",
-        # "grid_columns",
+        "annotations",
+        "grid_columns",
         # "grid_metadata",
-        # "schedule_columns_data",
+        "schedule_columns_data",
         # "schedule_property_metadata",
-        # "scheduled_activities",
+        "scheduled_activities",
         "tables",
     ]
 
@@ -24,7 +24,12 @@ class CsvToMetadata:
         if self._check_all_paths_present(file_paths):
             result = {}
             self._tables(file_paths["tables"], result)
-            self._activities(file_paths["activity_rows"], result)
+            self._standard_part(file_paths, result, "activity_rows", "activity_id", "activity rows")
+            self._standard_part(file_paths, result, "annotations", "annotation_id", "annotations")
+            self._standard_part(file_paths, result, "grid_columns", "col_id", "grid columns")
+            self._standard_part(file_paths, result, "grid_columns", "col_id", "grid columns")
+            self._standard_part(file_paths, result, "schedule_columns_data", "col_id", "scheduled columns")
+            self._standard_part(file_paths, result, "scheduled_activities", "col_id", "scheduled activities")
             return result
         else:
             self._errors.error(
@@ -37,22 +42,27 @@ class CsvToMetadata:
         if rows := self._read_csv(file_path):
             for row in rows:
                 result[row["table_id"]] = row
-                result[row["table_id"]]["activities"] = {}
+                result[row["table_id"]]["activity_rows"] = {}
+                result[row["table_id"]]["annotations"] = {}
+                result[row["table_id"]]["grid_columns"] = {}
+                result[row["table_id"]]["schedule_columns_data"] = {}
+                result[row["table_id"]]["scheduled_activities"] = {}
         else:
             self._errors.error(
                 f"No tables detected in CSV file '{file_path}'",
                 location=KlassMethodLocation(self.MODULE, "_tables"),
             )
 
-    def _activities(self, file_path: Path, result: dict) -> dict:
+    def _standard_part(self, file_paths: dict[Path], result: dict, table_key: str, id_key: str, type: str) -> dict:
+        file_path = file_paths[table_key]
         if rows := self._read_csv(file_path):
             for row in rows:
                 table = row["table_id"]
-                result[table]["activities"][row["activity_id"]] = row
+                result[table][table_key][row[id_key]] = row
         else:
             self._errors.error(
-                f"No activities detected in CSV file '{file_path}'",
-                location=KlassMethodLocation(self.MODULE, "_activities"),
+                f"No {type} detected in CSV file '{file_path}'",
+                location=KlassMethodLocation(self.MODULE, "_standar_part"),
             )
 
     def _check_all_paths_present(self, file_paths: dict[Path]) -> bool:
