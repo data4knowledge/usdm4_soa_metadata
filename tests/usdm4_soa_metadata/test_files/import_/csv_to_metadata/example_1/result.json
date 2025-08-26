@@ -485,109 +485,275 @@
       }
     },
     "scheduled_activities": {
-      "sc-001": {
+      "ar-001": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
+        "activity_id": "ar-001",
         "col_id": "sc-001",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-009": {
+      "ar-002": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-009",
+        "activity_id": "ar-002",
+        "col_id": "sc-001",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-013": {
+      "ar-003": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
+        "activity_id": "ar-003",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-004": {
+        "table_id": "table-001",
+        "activity_id": "ar-004",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-005": {
+        "table_id": "table-001",
+        "activity_id": "ar-005",
         "col_id": "sc-013",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-005": {
+      "ar-006": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
+        "activity_id": "ar-006",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-007": {
+        "table_id": "table-001",
+        "activity_id": "ar-007",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-008": {
+        "table_id": "table-001",
+        "activity_id": "ar-008",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-009": {
+        "table_id": "table-001",
+        "activity_id": "ar-009",
         "col_id": "sc-005",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-003": {
+      "ar-010": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
+        "activity_id": "ar-010",
         "col_id": "sc-003",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-002": {
+      "ar-011": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
+        "activity_id": "ar-011",
+        "col_id": "sc-014",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-012": {
+        "table_id": "table-001",
+        "activity_id": "ar-012",
         "col_id": "sc-002",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-004": {
+      "ar-013": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-004",
+        "activity_id": "ar-013",
+        "col_id": "sc-003",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-007": {
+      "ar-014": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-007",
+        "activity_id": "ar-014",
+        "col_id": "sc-013",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-008": {
+      "ar-015": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-008",
+        "activity_id": "ar-015",
+        "col_id": "sc-001",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-010": {
+      "ar-016": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-010",
+        "activity_id": "ar-016",
+        "col_id": "sc-001",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-011": {
+      "ar-017": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-011",
+        "activity_id": "ar-017",
+        "col_id": "sc-014",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-012": {
+      "ar-018": {
         "table_id": "table-001",
-        "activity_id": "ar-028",
-        "col_id": "sc-012",
+        "activity_id": "ar-018",
+        "col_id": "sc-013",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
       },
-      "sc-014": {
+      "ar-019": {
+        "table_id": "table-001",
+        "activity_id": "ar-019",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-020": {
+        "table_id": "table-001",
+        "activity_id": "ar-020",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-021": {
+        "table_id": "table-001",
+        "activity_id": "ar-021",
+        "col_id": "sc-001",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": "a"
+      },
+      "ar-022": {
+        "table_id": "table-001",
+        "activity_id": "ar-022",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-023": {
+        "table_id": "table-001",
+        "activity_id": "ar-023",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-024": {
+        "table_id": "table-001",
+        "activity_id": "ar-024",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-025": {
+        "table_id": "table-001",
+        "activity_id": "ar-025",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-026": {
+        "table_id": "table-001",
+        "activity_id": "ar-026",
+        "col_id": "sc-013",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-027": {
+        "table_id": "table-001",
+        "activity_id": "ar-027",
+        "col_id": "sc-014",
+        "marker": "X",
+        "activity_comment": "",
+        "annotation_markers": ""
+      },
+      "ar-028": {
         "table_id": "table-001",
         "activity_id": "ar-028",
         "col_id": "sc-014",
         "marker": "X",
         "activity_comment": "",
         "annotation_markers": ""
+      }
+    },
+    "grid_metadata": {
+      "columns": {
+        "table_id": "table-001",
+        "metadata_type": "dimension",
+        "metadata_key": "columns",
+        "metadata_value": "14"
+      },
+      "activity_rows": {
+        "table_id": "table-001",
+        "metadata_type": "dimension",
+        "metadata_key": "activity_rows",
+        "metadata_value": "28"
+      },
+      "property_rows": {
+        "table_id": "table-001",
+        "metadata_type": "dimension",
+        "metadata_key": "property_rows",
+        "metadata_value": "2"
+      },
+      "property_types": {
+        "table_id": "table-001",
+        "metadata_type": "structure",
+        "metadata_key": "property_types",
+        "metadata_value": "visit,week"
+      },
+      "footnote_markers": {
+        "table_id": "table-001",
+        "metadata_type": "structure",
+        "metadata_key": "footnote_markers",
+        "metadata_value": "X,a,b,P,CT,ECG,ET,RT"
+      }
+    },
+    "schedule_property_metadata": {
+      "visit": {
+        "table_id": "table-001",
+        "property": "visit",
+        "label": "VISIT",
+        "comment": "Visit identifiers row"
+      },
+      "week": {
+        "table_id": "table-001",
+        "property": "week",
+        "label": "WEEK",
+        "comment": "Week timing row"
       }
     }
   }

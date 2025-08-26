@@ -9,9 +9,9 @@ class CsvToMetadata:
         "activity_rows",
         "annotations",
         "grid_columns",
-        # "grid_metadata",
+        "grid_metadata",
         "schedule_columns_data",
-        # "schedule_property_metadata",
+        "schedule_property_metadata",
         "scheduled_activities",
         "tables",
     ]
@@ -29,7 +29,9 @@ class CsvToMetadata:
             self._standard_part(file_paths, result, "grid_columns", "col_id", "grid columns")
             self._standard_part(file_paths, result, "grid_columns", "col_id", "grid columns")
             self._standard_part(file_paths, result, "schedule_columns_data", "col_id", "scheduled columns")
-            self._standard_part(file_paths, result, "scheduled_activities", "col_id", "scheduled activities")
+            self._standard_part(file_paths, result, "scheduled_activities", "activity_id", "scheduled activities")
+            self._standard_part(file_paths, result, "grid_metadata", "metadata_key", "grid metadata")
+            self._standard_part(file_paths, result, "schedule_property_metadata", "property", "scheduled property metadata")
             return result
         else:
             self._errors.error(
@@ -47,6 +49,8 @@ class CsvToMetadata:
                 result[row["table_id"]]["grid_columns"] = {}
                 result[row["table_id"]]["schedule_columns_data"] = {}
                 result[row["table_id"]]["scheduled_activities"] = {}
+                result[row["table_id"]]["grid_metadata"] = {}
+                result[row["table_id"]]["schedule_property_metadata"] = {}
         else:
             self._errors.error(
                 f"No tables detected in CSV file '{file_path}'",

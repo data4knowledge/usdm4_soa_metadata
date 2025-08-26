@@ -21,12 +21,12 @@ def _file_list(directory: Path) -> list[Path]:
             result["annotations"] = Path(os.path.join(directory, file))
         elif file.endswith("grid_columns.csv"):
             result["grid_columns"] = Path(os.path.join(directory, file))
-        # elif file.endswith("grid_metadata"):
-        #     result[""] = Path(os.path.join(directory, file))
+        elif file.endswith("grid_metadata.csv"):
+            result["grid_metadata"] = Path(os.path.join(directory, file))
         elif file.endswith("schedule_columns_data.csv"):
             result["schedule_columns_data"] = Path(os.path.join(directory, file))
-        # elif file.endswith("schedule_property_metadata"):
-        #     result["schedule_property_metadata"] = Path(os.path.join(directory, file))
+        elif file.endswith("schedule_property_metadata.csv"):
+            result["schedule_property_metadata"] = Path(os.path.join(directory, file))
         elif file.endswith("scheduled_activities.csv"):
             result["scheduled_activities"] = Path(os.path.join(directory, file))
         else:
