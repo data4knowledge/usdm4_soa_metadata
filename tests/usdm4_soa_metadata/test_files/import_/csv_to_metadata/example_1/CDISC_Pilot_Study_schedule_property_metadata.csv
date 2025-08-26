@@ -1,0 +1,3 @@
+table_id,property,label,comment
+table-001,visit,VISIT,Visit identifiers row
+table-001,week,WEEK,Week timing row

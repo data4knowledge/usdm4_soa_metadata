@@ -1,0 +1,6 @@
+table_id,metadata_type,metadata_key,metadata_value
+table-001,dimension,columns,14
+table-001,dimension,activity_rows,28
+table-001,dimension,property_rows,2
+table-001,structure,property_types,"visit,week"
+table-001,structure,footnote_markers,"X,a,b,P,CT,ECG,ET,RT"

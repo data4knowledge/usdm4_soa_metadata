@@ -1,0 +1,15 @@
+table_id,col_id,position,header_text
+table-001,sc-001,1,1
+table-001,sc-002,2,2
+table-001,sc-003,3,3
+table-001,sc-004,4,4
+table-001,sc-005,5,5
+table-001,sc-006,6,7
+table-001,sc-007,7,8
+table-001,sc-008,8,9
+table-001,sc-009,9,10
+table-001,sc-010,10,11
+table-001,sc-011,11,12
+table-001,sc-012,12,13
+table-001,sc-013,13,ET
+table-001,sc-014,14,RT

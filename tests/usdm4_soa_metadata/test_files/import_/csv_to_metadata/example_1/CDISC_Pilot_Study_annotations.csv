@@ -1,0 +1,9 @@
+table_id,annotation_id,annotation_type,annotation_marker,annotation_text,applies_to
+table-001,ann-001,legend,X,Performed at this visit,general
+table-001,ann-002,footnote,a,Performed at this visit if patient is an insulin-dependent diabetic,marker
+table-001,ann-003,footnote,b,Performed at this visit and via telephone interview 2 weeks following this visit,marker
+table-001,ann-004,legend,P,"Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected",general
+table-001,ann-005,abbreviation,CT,computed tomography,general
+table-001,ann-006,abbreviation,ECG,electrocardiogram,general
+table-001,ann-007,abbreviation,ET,Early Termination,general
+table-001,ann-008,abbreviation,RT,Retrieval,general
