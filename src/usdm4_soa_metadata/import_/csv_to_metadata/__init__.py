@@ -3,10 +3,9 @@ from pathlib import Path
 from simple_error_log.errors import Errors
 from simple_error_log.error_location import KlassMethodLocation
 
-
 class CsvToMetadata:
     MODULE = "usdm4_soa_metadata.import_.csv_to_json.__init__.CsvToMetadata"
-    FILE_KEYS = [
+    FILE_KEYS: list = [
         "activity_rows",
         "annotations",
         "grid_columns",
@@ -21,6 +20,7 @@ class CsvToMetadata:
         self._errors = errors
 
     def process(self, file_paths: dict[Path]) -> dict | None:
+        print(f"FILES: {file_paths}")
         if self._check_all_paths_present(file_paths):
             result = {}
             self._tables(file_paths["table"], result)
@@ -59,8 +59,9 @@ class CsvToMetadata:
         return True if all(k in file_paths for k in self.FILE_KEYS) else False
 
     def _missing_paths(self, file_paths: dict[Path]) -> list[Path]:
-        present = all(k in self.FILE_KEYS for k in file_paths)
-        return self.FILE_KEYS - present
+        present: list = [x for x in self.FILE_KEYS if x not in file_paths]
+        #present = all(k in self.FILE_KEYS for k in file_paths)
+        return list(set(self.FILE_KEYS) - set(present))
 
     def _read_csv(self, file_path, Path) -> dict:
         try:
