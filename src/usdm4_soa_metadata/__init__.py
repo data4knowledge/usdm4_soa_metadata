@@ -11,7 +11,7 @@ class USDM4SoAMetadata:
         self._errors = Errors()
 
     def from_csv(self, file_paths: dict[Path]) -> list[ScheduleTimeline]:
-        converter = CsvToJson(self._errors)
+        converter = CsvToMetadata(self._errors)
         metadata = converter.process(file_paths)
         processor = UsdmFromMetadata(self.errors)
         return processor.process(metadata)
